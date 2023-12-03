@@ -1,5 +1,14 @@
-const elements = document.querySelector("p")
+const input = document.querySelector("#main-input")
+const title = document.querySelector(".main-text")
 
-console.log(elements)
 
+
+
+function clickButton(){
+   title.innerHTML = input.value;
+}
+
+function digiteiNoinput(){
+    console.log("Digitei no input")
+}
 
